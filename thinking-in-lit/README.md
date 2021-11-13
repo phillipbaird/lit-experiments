@@ -9,10 +9,15 @@ Run the demo [here](https://phillipbaird.github.io/lit-experiments/thinking-in-l
 ## Building
 
 `cd thinking-in-lit`
+
 `npm i` - install dependancies.
+
 `npm run dev` - run a development server
+
 `npm run build` - build the project and output to the `/dist` directory.
+
 `npm run serve` - serve the built project from the `/dist` directory.
+
 
 
 ## Learnings
