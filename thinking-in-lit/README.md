@@ -4,6 +4,7 @@ A tiny project to learn about [Lit](https://lit.dev), [ViteJS](https://vitejs.de
 
 This project reimplements the example from the React docs in [Thinking in React](https://reactjs.org/docs/thinking-in-react.html), thus the name.
 
+Run the demo [here](https://phillipbaird.github.io/lit-experiments/thinking-in-lit/index.html).
 
 ## Building
 
