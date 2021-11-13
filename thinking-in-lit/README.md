@@ -24,7 +24,7 @@ Run the demo [here](https://phillipbaird.github.io/lit-experiments/thinking-in-l
 
 1. Lit and React seem similar on the surface, e.g. they both have properties and state, but their implementations are quite different, e.g. a virtual dom is not used in Lit.  Suggest reading the [Thinking in React](https://reactjs.org/docs/thinking-in-react.html) article and comparing it's code to `src/thinking-in-lit.ts`.
 
-2. You can scaffold a new ViteJS + Lit + Typescript project using `npm init@latest my-app -- --template lit-ts`.  This creates a ViteJS project that builds as a library rather than a deployable application.  Changes to the generated ViteJS config file (`vite.config.ts`) were required to create a deployable application.  
+2. You can scaffold a new ViteJS + Lit + Typescript project using `npm init vite@latest my-app -- --template lit-ts`.  This creates a ViteJS project that builds as a library rather than a deployable application.  Changes to the generated ViteJS config file (`vite.config.ts`) were required to create a deployable application.  
  
 3. Lit creates [web components](https://developer.mozilla.org/en-US/docs/Web/Web_Components).  This introduces custom elements into the DOM. In the 'Thinking in React' example it creates components to represent the rows of a table. When we take the same approach with Lit the custom elements sit between the `tbody` and `tr` elements.  Custom elements are `display: inline` by default so this causes the `tr` elements to layout incorrectly.
     ```html
